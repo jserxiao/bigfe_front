@@ -29,12 +29,19 @@
 }
 
 .App-footer {
+  position: relative;
   height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .App-footer .link {
   cursor: pointer;
   color: #fff;
   text-decoration: underline;
+}
+.frend-link {
+  color: #f2f3f5;
 }
 
 .App-link {
