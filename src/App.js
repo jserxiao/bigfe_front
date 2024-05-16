@@ -20,9 +20,9 @@ const link = (path) => {
       </header>
       <footer className="App-footer">
         <span class="link" onClick={() => link('https://beian.miit.gov.cn/')}>赣ICP备2024033381号</span>
-        <div style={{position: 'absolute',right: '400px'}}>
+        <div style={{marginTop: '20px'}}>
           <span class="frend-link">友情链接：</span>
-          <span class="frend-link" onClick={() => link('https://sfengweb.com')}>随风sfeng</span>
+          <span class="frend-link link" onClick={() => link('https://sfengweb.com')}>随风sfeng</span>
         </div>
       </footer>
     </div>
