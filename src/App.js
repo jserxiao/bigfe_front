@@ -19,10 +19,10 @@ const docLink = 'https://docs.qq.com/doc/DZU11WXFheXBJcmFL?layoutKey=newdoc&crea
     <div className="App">
       <header className="App-header">
         <span class="mb-20">欢迎登陆xjk的前端学习站点</span>
-        <content>
-          <span class="link" onClick={() => link(docLink)}>前端知识框架</span>
-        </content>
       </header>
+      <main className="App-content">
+        <span class="link" onClick={() => link(docLink)}>前端知识框架</span>
+      </main>
       <footer className="App-footer">
         <span class="link" onClick={() => link('https://beian.miit.gov.cn/')}>赣ICP备2024033381号</span>
         <div style={{marginTop: '20px'}}>
