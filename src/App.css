@@ -33,7 +33,10 @@
   padding: 30px 0;
   text-align: center;
 }
-.App-footer .link {
+.mb-20 {
+  margin-bottom: 20px;
+}
+.link {
   cursor: pointer;
   color: #fff;
   text-decoration: underline;
