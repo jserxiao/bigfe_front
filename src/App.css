@@ -30,9 +30,11 @@
 
 .App-footer {
   height: 80px;
-  a {
-    color: #fff;
-  }
+}
+.App-footer .link {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .App-link {
