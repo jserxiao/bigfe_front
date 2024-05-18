@@ -3,7 +3,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: #282c34;
+  background-color: #282c34cc;
   min-height: 100vh;
 }
 
@@ -19,6 +19,7 @@
 }
 
 .App-header {
+  position: relative;
   height: 80px;
   display: flex;
   align-items: center;
@@ -26,12 +27,26 @@
   color: white;
   justify-content: center;
 }
+.App-header .toggle {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 16px;
+  color: skyblue;
+  cursor: pointer;
+}
 .App-content {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: 32px;
+}
+.microapp {
+  width: 100%;
+}
+.microapp micro-app-body {
+  height: 100%;
 }
 .App-footer {
   position: relative;
