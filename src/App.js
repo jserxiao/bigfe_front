@@ -3,6 +3,7 @@ import {useState, useLayoutEffect,useRef,useMemo} from 'react';
 import {useRequest} from 'ahooks';
 import {apps} from './subapp.conf.ts';
 import { useSize } from 'ahooks';
+const docLink = 'https://docs.qq.com/doc/DZU11WXFheXBJcmFL?layoutKey=newdoc&createInMall=true&disableFilter=true&folder=&is_panel=1&panel_key=29c5da37528bde745e50babdec8e2169&panel_type=doc&panel_connection_type=2&is_preload=0&fromPage=doc_list_new&create_type=2&aid_position=templatemall&aid_pos=templatemall';
 
 function App() {
   const getData = async () => {
@@ -34,6 +35,10 @@ function App() {
       </main>
       <footer className="App-footer">
         <span className="link" onClick={() => link('https://beian.miit.gov.cn/')}>赣ICP备2024033381号</span>
+        <div style={{marginTop: '20px'}}>
+          <span className="frend-link">学习导航：</span>
+          <span className="frend-link link" onClick={() => link(docLink)}>前端知识框架</span>
+        </div>
         <div style={{marginTop: '20px'}}>
           <span className="frend-link">友情链接：</span>
           <span className="frend-link link" onClick={() => link('https://sfengweb.com')}>随风sfeng</span>

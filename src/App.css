@@ -27,14 +27,7 @@
   color: white;
   justify-content: center;
 }
-.App-header .toggle {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  font-size: 16px;
-  color: skyblue;
-  cursor: pointer;
-}
+
 .App-content {
   flex: 1;
   display: flex;
