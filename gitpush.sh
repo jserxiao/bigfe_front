@@ -1,8 +1,5 @@
 #!/bin/bash
 # 配置这些变量
-REMOTE_REPO="https://github.com/jserxiao/bigfe_front.git" # 替换为你的远程仓库URL
-BRANCH_NAME="main" # 替换为你想要推送的分支名
-
  
 # 添加所有变更到暂存区
 git add . & pid=$!
