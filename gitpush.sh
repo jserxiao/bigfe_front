@@ -8,7 +8,8 @@ echo "<====================添加变更到暂存区成功====================>"
 git commit -m "$1" & pid=$!
 wait $pid
 echo "<====================commit成功====================>"
-if git pull --rebase : then
+
+if git pull --rebase; then
 # 推送到远程仓库
 git push origin "$2" & pid=$!
 wait $pid
