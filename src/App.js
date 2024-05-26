@@ -31,7 +31,7 @@ function App() {
         <span class="mb-20">欢迎登陆xjk的前端学习站点</span>
       </header>
       <main className="App-content">
-       {apps.map(x => <micro-app class="microapp" name={x.name} url={x.url} style={microAppStyle}></micro-app>)}
+       {apps.map(x => <micro-app class="microapp" {...x} style={microAppStyle}></micro-app>)}
       </main>
       <footer className="App-footer">
         <span className="link" onClick={() => link('https://beian.miit.gov.cn/')}>赣ICP备2024033381号</span>

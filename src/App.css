@@ -37,6 +37,7 @@
 }
 .microapp {
   width: 100%;
+  overflow: hidden;
 }
 .microapp micro-app-body {
   height: 100%;
