@@ -37,7 +37,9 @@ function App() {
         <span className="link" onClick={() => link('https://beian.miit.gov.cn/')}>赣ICP备2024033381号</span>
         <div style={{marginTop: '20px'}}>
           <span className="frend-link">学习导航：</span>
-          <span className="frend-link link" onClick={() => link(docLink)}>前端知识框架</span>
+          <span className="frend-link link mr-20" onClick={() => link(docLink)}>前端知识框架</span>
+          <span className="frend-link">组件库文档：</span>
+          <span className="frend-link link" onClick={() => link('//xiaojiakun.top/docs')}>xatom ui</span>
         </div>
         <div style={{marginTop: '20px'}}>
           <span className="frend-link">友情链接：</span>
