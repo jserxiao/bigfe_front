@@ -28,6 +28,19 @@
   justify-content: center;
 }
 
+.content {
+  position: relative;
+}
+
+.screenshot {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 14px;
+  color: grey;
+  cursor: pointer;
+}
+
 .App-content {
   flex: 1;
   display: flex;
