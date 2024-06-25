@@ -1,9 +1,13 @@
 import './App.css';
-import {useState, useLayoutEffect,useRef,useMemo, useEffect} from 'react';
+import {useState, useLayoutEffect,useRef,useMemo} from 'react';
 import {useRequest} from 'ahooks';
 import {apps} from './subapp.conf.ts';
 import { useSize } from 'ahooks';
 import {screenshot} from '../utils/dom.js';
+import xstat from 'x-stat';
+
+xstat.init();
+
 const docLink = 'https://docs.qq.com/doc/DZU11WXFheXBJcmFL?layoutKey=newdoc&createInMall=true&disableFilter=true&folder=&is_panel=1&panel_key=29c5da37528bde745e50babdec8e2169&panel_type=doc&panel_connection_type=2&is_preload=0&fromPage=doc_list_new&create_type=2&aid_position=templatemall&aid_pos=templatemall';
 
 function App() {

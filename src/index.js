@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import microApp from '@micro-zoe/micro-app'
-import VConsole from 'vconsole'
+import microApp from '@micro-zoe/micro-app';
+import VConsole from 'vconsole';
 
 import {isMobile} from '../utils/env'
 
